@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Little Message For You</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="background-hearts">♡</div>
+
+    <main class="container">
+
+        <section class="hero">
+            <p class="small-title">A LITTLE SOMETHING FOR YOU</p>
+            <h1>Hey, Beautiful. ♡</h1>
+            <p class="subtitle">
+                There's something I've been wanting to tell you.
+            </p>
+            <button onclick="showLetter()">Open My Message</button>
+        </section>
+
+        <section class="letter" id="letter">
+            <div class="flower">✿</div>
+            <p class="small-title">A MESSAGE FROM ME TO YOU</p>
+
+            <h2>Something I Want You to Know</h2>
+
+            <p class="message">
+                I don't really know how to start this, but I just
+                want to be honest with you.
+
+                <br><br>
+
+                There's something about you that caught my attention.
+                Maybe it's the way you smile, the way you carry yourself,
+                or simply the little things that make you who you are.
+
+                <br><br>
+
+                I admire you more than you probably realize.
+                I appreciate your presence, even in the simplest moments.
+                You have this way of making an ordinary day feel a little
+                more special.
+
+                <br><br>
+
+                I'm not writing this to make you feel pressured or
+                obligated to feel the same way. I just wanted you to know
+                that someone genuinely appreciates you.
+
+                <br><br>
+
+                Whatever your reaction may be, I will respect it.
+                I'm just glad I got the courage to tell you this.
+
+                <br><br>
+
+                Thank you for being you. Keep smiling, because
+                you deserve all the beautiful things life has to offer.
+            </p>
+
+            <p class="signature">
+                Sincerely,<br>
+                Someone who admires you. ♡
+            </p>
+        </section>
+
+        <section class="response" id="response">
+            <div class="flower">♡</div>
+            <h2>Your Turn</h2>
+            <p class="subtitle">
+                I'd love to hear what's on your mind.
+                Take your time. There's no wrong answer.
+            </p>
+
+            <form id="responseForm">
+
+                <label for="reaction">1. What's your reaction?</label>
+                <textarea
+                    id="reaction"
+                    placeholder="Write your honest reaction here..."
+                    required></textarea>
+
+                <label for="reply">2. Is there something you'd like to tell me?</label>
+                <textarea
+                    id="reply"
+                    placeholder="You can tell me anything..."
+                    required></textarea>
+
+                <button type="submit">Send Your Response ♡</button>
+            </form>
+
+            <div id="thankYou" class="thank-you">
+                <h2>Thank You! ♡</h2>
+                <p>Your thoughts mean a lot. Thank you for taking
+                the time to share them.</p>
+            </div>
+        </section>
+
+        <footer>
+            Made with sincerity and a little courage. ♡
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
